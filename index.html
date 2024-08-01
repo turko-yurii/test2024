@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product Sale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Автотримач безпровідна зарядка</h1>
+        </header>
+        
+        <main>
+            <div class="product">
+                <img src="/image/8.jpeg" alt="Product Image">
+                <h2>Назва Товару</h2>
+                <p class="description">Опис продукту. Це чудовий продукт, який вартий ваших грошей.</p>
+                <p class="price">Ціна: 599 грн</p>
+            </div>
+
+            <form id="orderForm">
+                <h3>Замовити зараз</h3>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Номер телефону:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit">Замовити</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
